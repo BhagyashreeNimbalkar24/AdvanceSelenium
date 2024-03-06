@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Animation</title>
+    <style type="text/css">
+        div{
+         border: 3 px solid palevioletred;
+            height: 100px;
+            width: 100px;
+            background-color: chartreuse;
+            animation-name: pune ;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-iteration-count:infinite;
+             animation-direction: normal;
+             animation-timing-function: ease-in;
+             animation-fill-mode: reverse;
+
+
+
+        }
+
+        @keyframes pune {
+                from{
+                    background-color:yellow;
+                    height: 300px;
+                    width:300px;
+                    border: 2px solid royalblue;
+                    position: relative;
+                    left:100px;
+                    transform: skew(20deg);
+                    
+                   
+                }
+                to{
+                    background-color:blue;
+                    border: 2px solid red;
+                    height: 300px;
+                    width:300px;
+                    position: relative;
+                    left:left;
+                    
+                }
+
+            }
+        
+            
+    </style>
+</head>
+<body>
+    <div>
+        <p>Pune</p>
+
+  </div>
+</body>
+</html>
